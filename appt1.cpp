@@ -419,6 +419,10 @@ void populate()
         }
         // cout<<"row 0: "<<row[0]<<endl;
 
+        if (row.empty())
+        {
+            break;
+        }
         stringstream da(row[0]);
         string num;
         datetype temp;

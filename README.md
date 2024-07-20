@@ -59,7 +59,7 @@ The `Date` class manages a collection of `Timeslot` objects for a specific date:
    Use a C++ compiler to compile the code. For example, with g++:
 
    ```bash
-   g++ -o appointment_system main.cpp
+   g++ -o appointment_system appt1.cpp
    ```
 
 2. **Run the Executable**
